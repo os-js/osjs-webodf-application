@@ -1,6 +1,7 @@
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const mode = process.env.NODE_ENV || 'development';
 const minimize = mode === 'production';
@@ -31,6 +32,9 @@ module.exports = {
       filename: '[name].css',
       chunkFilename: '[id].css'
     }),
+    new CopyWebpackPlugin([
+      path.resolve(__dirname, 'build/webodf/webodf.js')
+    ]),
     ...plugins
   ],
   module: {
