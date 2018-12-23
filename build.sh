@@ -9,6 +9,7 @@ mkdir -p dist
 rm -rf dist/*
 rm -rf build
 
+git submodule init
 git submodule update --remote
 
 mkdir -p build
