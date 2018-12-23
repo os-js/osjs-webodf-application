@@ -1,0 +1,3 @@
+[submodule "WebODF"]
+	path = WebODF
+	url = https://github.com/kogmbh/WebODF.git
