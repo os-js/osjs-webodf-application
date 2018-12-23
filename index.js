@@ -7,7 +7,6 @@ const register = (core, args, options, metadata) => {
   const _ = core.make('osjs/locale').translate;
   const vfs = core.make('osjs/vfs');
   const proc = core.make('osjs/application', {args, options, metadata});
-  const {icon} = core.make('osjs/theme');
 
   const win = proc.createWindow({
     id: 'WebODFWindow',
