@@ -1,0 +1,19 @@
+{
+  "type": "application",
+  "name": "WebODF",
+  "category": "office",
+  "title": {
+    "en_EN": "WebODF"
+  },
+  "description": {
+    "en_EN": "OpenDocument Reader"
+  },
+  "mimes": [
+    "application\/vnd.oasis.opendocument.presentation",
+    "application\/vnd.oasis.opendocument.spreadsheet",
+    "application\/vnd.oasis.opendocument.text"
+  ],
+  "files": [
+    "main.js"
+  ]
+}
