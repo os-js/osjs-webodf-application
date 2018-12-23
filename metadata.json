@@ -2,6 +2,7 @@
   "type": "application",
   "name": "WebODF",
   "category": "office",
+  "icon": "icon.png",
   "title": {
     "en_EN": "WebODF"
   },

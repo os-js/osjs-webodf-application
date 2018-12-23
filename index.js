@@ -12,6 +12,7 @@ const register = (core, args, options, metadata) => {
   const win = proc.createWindow({
     id: 'WebODFWindow',
     title: metadata.title.en_EN,
+    icon: proc.resource(metadata.icon),
     dimension: {width: 640, height: 480}
   });
 

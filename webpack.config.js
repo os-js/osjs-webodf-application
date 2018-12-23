@@ -33,6 +33,7 @@ module.exports = {
       chunkFilename: '[id].css'
     }),
     new CopyWebpackPlugin([
+      path.resolve(__dirname, 'icon.png'),
       path.resolve(__dirname, 'build/webodf/webodf.js')
     ]),
     ...plugins
