@@ -4,10 +4,12 @@
   "category": "office",
   "icon": "icon.png",
   "title": {
-    "en_EN": "WebODF"
+    "en_EN": "WebODF",
+    "pt_BR": "WebODF"
   },
   "description": {
-    "en_EN": "OpenDocument Reader"
+    "en_EN": "OpenDocument Reader",
+    "pt_BR": "Abra e leia documentos"
   },
   "mimes": [
     "application\/vnd.oasis.opendocument.presentation",
