@@ -9,26 +9,12 @@
     "watch": "webpack --watch",
     "prepublishOnly": "./build.sh"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "@babel/core": "^7.0.0-rc.1",
-    "@babel/plugin-transform-runtime": "^7.0.0-rc.1",
-    "@babel/preset-env": "^7.0.0-rc.1",
-    "@babel/runtime": "^7.0.0-rc.1",
-    "@osjs/eslint-config": "^1.0.0",
+  "dependencies": {
     "@osjs/gui": "^4.0.14",
-    "babel-loader": "^8.0.0-beta.4",
-    "copy-webpack-plugin": "^4.6.0",
-    "css-loader": "^1.0.0",
-    "eslint": "^5.4.0",
-    "hyperapp": "^1.2.9",
-    "mini-css-extract-plugin": "^0.4.1",
-    "node-sass": "^4.9.3",
-    "optimize-css-assets-webpack-plugin": "^5.0.0",
-    "sass-loader": "^7.1.0",
-    "webpack": "^4.16.5",
-    "webpack-cli": "^3.1.0",
-    "webpack-copy-plugin": "0.0.4"
+    "hyperapp": "^1.2.9"
+  },
+  "devDependencies": {
+    "@osjs/dev-meta": "^1.0.2"
   },
   "osjs": {
     "type": "package"
