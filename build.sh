@@ -2,7 +2,7 @@
 set -e
 
 npm run eslint
-npm run stylelint
+#npm run stylelint
 
 mkdir -p dist
 
