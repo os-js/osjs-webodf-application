@@ -1,7 +1,7 @@
 {
   "name": "@osjs/webodf-application",
   "description": "OS.js WebODF Application",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "eslint": "eslint *.js",
