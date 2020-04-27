@@ -11,7 +11,7 @@
   "description": {
     "en_EN": "OpenDocument Reader",
     "pt_BR": "Abra e leia documentos",
-    "fr_FR": "Lecteur de document ODF"
+    "fr_FR": "Lecteur de documents ODF"
   },
   "mimes": [
     "application\/vnd.oasis.opendocument.presentation",
